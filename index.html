@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Companies Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Top IT Companies Dashboard</h1>
+        </header>
+        
+        <div class="company-cards" id="company-cards">
+            <!-- Company cards will be inserted here by JavaScript -->
+        </div>
+
+        <div class="charts-container">
+            <div class="chart-wrapper">
+                <canvas id="stockChart"></canvas>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="metricsChart"></canvas>
+            </div>
+        </div>
+
+        <div class="loading-overlay" id="loading">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
